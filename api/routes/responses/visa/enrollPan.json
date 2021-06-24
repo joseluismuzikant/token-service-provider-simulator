@@ -1,0 +1,80 @@
+{
+  "encryptionMetaData": "eg45bhtgrgb5hyht....",
+  "aidInfo": [
+    {
+      "priority": "01",
+      "aid": "A0000000031010"
+    },
+    {
+      "priority": "01",
+      "aid": "A0000000031010"
+    }
+  ],
+  "vPanEnrollmentID": "c9b61bd49a52597a3d0a18f6535df201",
+  "cardMetaData": {
+    "cardData": [
+      {
+        "guid": "5591f1c00bba420484ad9aa5b48c66d3",
+        "contentType": "cardSymbol",
+        "content": [
+          {
+            "width": "100",
+            "mimeType": "image/png",
+            "height": "100"
+          }
+        ]
+      },
+      {
+        "guid": "c20bd324315b4788ab1399f482537afb",
+        "contentType": "digitalCardArt",
+        "content": [
+          {
+            "width": "1536",
+            "mimeType": "image/png",
+            "height": "968"
+          }
+        ]
+      },
+      {
+        "guid": "4a9469ba5fbe4e739281cbdc8de7a898",
+        "contentType": "termsAndConditions",
+        "content": [
+          {
+            "width": "0",
+            "mimeType": "text/plain",
+            "height": "0"
+          }
+        ]
+      }
+    ],
+    "longDescription": "The Bank Card Platinum Rewards",
+    "backgroundColor": "0x009602",
+    "termsAndConditionsURL": "www.thebank.com/termsAndConditionsURL",
+    "contactEmail": "goldcustomer@thebank.com",
+    "contactName": "TheBank",
+    "foregroundColor": "0x1af0f0",
+    "contactWebsite": "www.thebank.com",
+    "shortDescription": "The Bank Card",
+    "bankAppAddress": "com.google.thebankapp",
+    "privacyPolicyURL": "www.thebank.com/privacy",
+    "labelColor": "0x195501",
+    "termsAndConditionsID": "3456548509876567",
+    "bankAppName": "TheBankApp",
+    "contactNumber": "18001234567"
+  },
+  "paymentInstrument": {
+    "accountStatus": "N",
+    "last4": "3018",
+    "paymentAccountReference": "V0010013816180398947326400396",
+    "isTokenizable": "Y",
+    "indicators": [
+      "PRIVATE_LABEL"
+    ],
+    "cvv2PrintedInd": "true",
+    "expirationDate": {
+      "month": "12",
+      "year": "2015"
+    },
+    "expDatePrintedInd": "true"
+  }
+}

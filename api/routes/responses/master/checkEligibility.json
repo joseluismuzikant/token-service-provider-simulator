@@ -1,0 +1,12 @@
+{
+  "responseHost": "site1.Mastercard.com",
+  "responseId": "123456",
+  "eligibilityReceipt": {
+    "value": "53d9bcc8-5e37-459a-b2e0-ff3db8ce58ef",
+    "validForMinutes": "30"
+  },
+  "termsAndConditionsAssetId": "a11be1fc-0859-40e0-b676-9d983df3c0d3",
+  "applicableCardInfo": {
+    "isSecurityCodeApplicable": "true"
+  }
+}

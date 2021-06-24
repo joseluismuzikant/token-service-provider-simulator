@@ -1,0 +1,63 @@
+{
+  "responseHost": "site1.Mastercard.com",
+  "responseId": "123456",
+  "decision": "APPROVED",
+  "authenticationMethods": [
+    {
+      "id": 12344,
+      "type": "MASKED_MOBILE_PHONE_NUMBER",
+      "value": "12x-xxx-xx32"
+    },
+    {
+      "id": 12345,
+      "type": "AUTOMATED_CALL_CENTER_PHONE_NUMBER",
+      "value": "1-800-BANK-NUMBER"
+    },{
+      "id": 12346,
+      "type": "CARDHOLDER_TO_USE_ISSUER_MOBILE_APP",
+      "value": "{\"activeWithIssuerMobileAppAndroidIntent\":\"{...}\"}"
+    }
+  ],
+  "tokenUniqueReference": "d5ee8b4c-c533-4935-90a1-8d412fd94f5c",
+  "panUniqueReference": "d5ee8b4c-c533-4935-90a1-8d412fd94f5c",
+  "productConfig": {
+    "brandLogoAssetId": "6eb3e4b4-c5b3-4b89-bcb2-6d1f5fd09f57",
+    "isCoBranded": "true",
+    "coBrandName": "Co brand partner",
+    "coBrandLogoAssetId": "cd7014b4-89e9-4eda-b40f-6e45a7faa2b0",
+    "cardBackgroundAssetId": "cd7014b4-89e9-4eda-b40f-6e45a7faa2b0",
+    "cardBackgroundCombinedAssetId": "cd7014b4-89e9-4eda-b40f-6e45a7faa2b0",
+    "foregroundColor":"000000",
+    "issuerLogoAssetId":"cd7014b4-89e9-4eda-b40f-6e45a7faa2b0",
+    "issuerName":"Issuing Bank",
+    "shortDescription":"Bank Rewards Mastercard",
+    "longDescription":"Bank Rewards Mastercard with rewards program",
+    "issuerMobileApp": {},
+    "termsAndConditionsUrl": "www.thebank.com/termsAndConditionsURL",
+    "privacyPolicyUrl": "com.google.thebankapp",
+    "issuerProductConfigCode": "",
+    "customerServiceUrl": "www.thebank.com",
+    "customerServiceEmail": "goldcustomer@thebank.com",
+    "customerServicePhoneNumber": "18001234567"
+  },
+  "tokenInfo": {
+    "tokenUniqueReference": "ffa890dc-62f1-410e-a2d8-b389af6a7736",
+    "panUniqueReference":"c9b61bd49a52597a3d0a18f6535df201",
+    "tokenPanSuffix": "1234",
+    "accountPanSuffix": "6789",
+    "financialAccountPanSuffix": "4567",
+    "alternateAccountIdentifierSuffix": "4567",
+    "tokenExpiry": "1018",
+    "accountPanExpiry": "1018",
+    "tokenAssuranceLevel":"",
+    "productCategory": "CREDIT",
+    "dsrpCapable": "true"
+  },
+  "tdsRegistrationUrl": "tds.Mastercard.com",
+  "encryptedPayload": {
+    "encryptedData": "RHVtbXkgYmFzZSA2NCBkYXRhIC0gdGhpcyBpcyBub3QgYSByZWFsIFRBViBleGFtcGxl",
+    "publicKeyFingerprint": "4c4ead5927f0df8117f178eea9308daa58e27c2b",
+    "encryptedKey": "A1B2C3D4E5F6112233445566",
+    "oaepHashingAlgorithm": "SHA512"
+  }
+}

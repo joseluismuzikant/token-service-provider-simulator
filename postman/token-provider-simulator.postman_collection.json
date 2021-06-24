@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "10c56f03-762c-4761-927e-1de08f4e2909",
+		"name": "token-provider-simulator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Master - checkEligibility",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/master/checkEligibility",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"master",
+						"checkEligibility"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Master - digitize",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/master/digitize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"master",
+						"digitize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Visa - enrollPan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/visa/enrollPan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"visa",
+						"enrollPan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Visa - panEnrollments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/visa/panEnrollments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"visa",
+						"panEnrollments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Visa - confirmProvisioning",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/visa/confirmProvisioning",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"visa",
+						"confirmProvisioning"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

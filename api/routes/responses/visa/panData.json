@@ -1,0 +1,19 @@
+{
+  "Opacity": {
+    "paymentInstrument": {
+      "last4": "2750",
+      "cvv2PrintedInd": "Y",
+      "expDatePrintedInd": "Y"
+    }
+  },
+  "RSA-PKI": {
+    "paymentInstrument": {
+      "last4": "7819",
+      "indicators": [
+        "PRIVATE_LABEL"
+      ],
+      "cvv2PrintedInd": "N",
+      "expDatePrintedInd": "N"
+    }
+  }
+}
